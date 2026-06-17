@@ -16,3 +16,5 @@ When answering architecture, runtime, package, or API-surface questions, explici
 For complex flows, name the workspace package that owns each step. Prefer concise tables and flow diagrams over long prose. Separate confirmed facts from inference when the code, docs, and package exports do not fully agree.
 
 When answering in Korean, keep the wording natural and technical. Avoid stock AI summary phrases. Preserve exact names such as API, SDK, React Native, Granite, `shared`, and package paths.
+
+When classifying Granite app roles in user-facing answers, use only `shared app` and `remote app`. Do not use alternate labels such as "general shared host app" or "Granite app" for that distinction.
